@@ -6,7 +6,7 @@
     "remove-git-tags-local": "git tag -d $(git tag -l)",
     "version": "npm run beautify && npm run test && npm run git-add",
     "commit": "git commit",
-    "post-version": "git push && git push --tags",
+    "post-version": "git push --set-upstream origin main && git push --tags",
     "bump": "npm version patch",
     "publish": "npm publish",
     "build": "tsc",
