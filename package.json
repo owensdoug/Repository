@@ -18,7 +18,7 @@
     "test": ""
   },
   "devDependencies": {
-    "@owensdoug/model-ts": "^0.0.5",
+    "@owensdoug/model-ts": "^0.0.6",
     "@owensdoug/specification-ts": "^0.0.1",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
